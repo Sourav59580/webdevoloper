@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/*	
+	@media(min-width:768px)
+	{
+		.desktop-menu{
+			display:block;
+			float:right;
+		}
+
+		.desktop-menu li{
+			display:inline-block;
+		}
+	}
+
+	@media(max-width:768px)
+	{
+		.mobile-menu{
+			display:block;
+			float:right;
+		}
+
+		.mobile-menu li{
+			display:inline-block;
+		}
+	}

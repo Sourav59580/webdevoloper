@@ -1,0 +1,106 @@
+.test{
+border: 1px solid red;
+}
+.main-font{
+font-family: 'Ramabhadra', sans-serif;
+}
+.logo{
+border: 1px solid white;
+box-shadow: 0px 0px 2px grey;
+padding:3px;
+border-radius: 50%;
+margin:2px;
+}
+#home h1{
+font-family: 'Ramabhadra', sans-serif;
+}
+@media(max-width:768px)
+{
+#home p{
+text-align: justify;
+}
+.service-col{
+margin-bottom:40px;
+}
+}
+#service{
+margin-bottom:0 !important;
+}
+#service h1{
+font-family: 'Ramabhadra', sans-serif;
+}
+.service-icon{
+width:50px;
+height: 50px;
+background-color:white;
+box-shadow:0px 0px 3px grey;
+font-size: 32px !important;
+padding-top:10px;
+border-radius:50%;
+box-shadow: 1px solid #ccc;
+}
+.service-header{
+margin-bottom:30px;
+}
+#service span{
+letter-spacing:1px;
+}
+#service i{
+margin-bottom:10px;
+}
+.client-pic{
+width:100px;
+height: 100px;
+border:1px solid #ccc;
+border-radius: 50%;
+box-shadow: 0px 0px 5px #ddd;
+margin-bottom:10px;
+padding: 2px;
+}
+.client-pic img
+{
+border-radius:50%;
+}
+#clients{
+background-color:white;
+}
+.clients-icon{
+width:30px;
+height: 30px;
+border: 1px solid black;
+color: black;
+padding-top:5px;
+margin-top:10px;
+font-size: 20px !important;
+}
+.clients-header{
+text-align: center;
+font-family:'Ramabhadra', sans-serif;
+margin-bottom:40px;
+}
+#pricing{
+margin-bottom: 0;
+overflow:hidden;
+}
+.ui-datepicker-div{
+z-index: 1999px;
+}
+.modal input:focus{
+box-shadow:none !important;
+}
+.custom-control-input:checked ~.custom-control-label::before{
+    background-color:red !important;
+    border: red !important;
+}
+.custom-control-input:focus~.custom-control-label::before{
+  box-shadow:none !important;
+}
+
+
+
+
+
+
+
+
+
